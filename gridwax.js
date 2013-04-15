@@ -135,7 +135,7 @@
         "margin-right": "10px",
         "margin-top": "4px"
       });
-      return this.setGrid(h, 0);
+      return this.setGrid(h + 1, 0);
     };
 
     GridWax.prototype.shave = function() {
