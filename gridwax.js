@@ -44,6 +44,7 @@
         "pointer-events": "none"
       });
       this.gridline = "<div class='gw-gridline'></div>";
+      /*
       $("body").css("padding-bottom", "35px");
       $("body").append("<div id='gw-overlay'>                        <img src='http://dl.dropbox.com/u/37716909/moustache.png'/>                        <div id='gw-console' class='gw-razor'>                          <label>Line-height: <input type='text' class='gw-lh' value='18' /></label>                          <label>Offset: <input type='text' class='gw-o' value='0' /></label>                          <label>Color:                            <a class='color'>#efefef</a>                            <a class='color'>#000</a>                            <a class='color'>#bd424b</a>                            <a class='color'>#cb6020</a>                            <a class='color'>#ffe960</a>                            <a class='color'>#3f9679</a>                            <a class='color'>#4c8dcf</a>                            <a class='color'>#a672ae</a>                            <a class='color'>#7576c9</a>                          </label>                        </div>                        <div id='gw-close' class='gw-razor'><a href='javascript:window.gridwax.shave();'>Remove the Grid ✖</a></div>                      </div>");
       this.overlay = $("#gw-overlay");
@@ -135,6 +136,7 @@
         "margin-right": "10px",
         "margin-top": "4px"
       });
+      */
       return this.setGrid(h + 1, 0);
     };
 
