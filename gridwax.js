@@ -24,7 +24,8 @@
 
     GridWax.prototype.init = function() {
       var color, item, _i, _len,
-        _this = this;
+        _this = this, h;
+      h = 22;
       document.onkeydown = this.keyDown;
       document.onkeyup = this.keyUp;
       this.pageWidth = $(document).width();
@@ -134,7 +135,7 @@
         "margin-right": "10px",
         "margin-top": "4px"
       });
-      return this.setGrid(18, 0);
+      return this.setGrid(h, 0);
     };
 
     GridWax.prototype.shave = function() {
